@@ -76,6 +76,18 @@ export const projects: Project[] = [
     live: "#",
   },
   {
+    id: "placeholder-2",
+    title: "AI Research Assistant",
+    status: "DEPLOYED",
+    tagline: "An AI Assistant for assisting in academic research work",
+    bullets: [
+      "This project is an AI Based Research Assistant that is built for the purpose of helping student, particularly in Computer Science domain, with their academic research projects and personal (beginner) research projects."
+    ],
+    stack: ["LangGraph", "Machine Learning", "NLP", "Tool Calling", "Agentic AI"],
+    github: "https://github.com/AryakumarMishra/AI-Research-Assistant",
+    live: "https://ai-research-assistant-aryakumarmishra.vercel.app/",
+  },
+  {
     id: "deepfake",
     title: "Deepfake Detector",
     status: "DEPLOYED",
@@ -98,18 +110,6 @@ export const projects: Project[] = [
     ],
     stack: ["XGBoost", "Machine Learning", "Time Series"],
     github: "https://github.com/AryakumarMishra/Machine-Failure-Prediction",
-    live: "#",
-  },
-  {
-    id: "placeholder-2",
-    title: "Fraud Detector",
-    status: "TBA",
-    tagline: "Pipeline for identification of Fraud in Credit Card Transactions",
-    bullets: [
-      "This project is a high-performance, modular AI system that detects fraudulent credit card transactions using XGBoost and the model has been trained on real-world credit card transaction data and achieves an impressive performance."
-    ],
-    stack: ["XGBoost", "Machine Learning", "Data Preprocessing"],
-    github: "#",
     live: "#",
   },
 ];
