@@ -60,7 +60,7 @@ export const projects: Project[] = [
     ],
     stack: ["FastAPI", "Next.js", "Google ADK", "Gemini"],
     github: "https://github.com/AryakumarMishra/Sentinel-AI",
-    live: "#",
+    live: "https://sentinelai-amber.vercel.app/",
   },
   {
     id: "fieldassist",
