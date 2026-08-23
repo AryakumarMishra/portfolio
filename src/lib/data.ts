@@ -52,7 +52,7 @@ export const projects: Project[] = [
   {
     id: "sentinel",
     title: "Sentinel-AI",
-    status: "TBA",
+    status: "DEPLOYED",
     tagline:
       "Autonomous agentic DevOps pipeline - self-healing CI/CD orchestration.",
     bullets: [
